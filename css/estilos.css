@@ -133,4 +133,12 @@ body {
         max-width: 80%; 
         height: auto;
     }
+    .description {
+        display: none;
+    }
+
+    .carousel-item .size-image {
+        width: 100%;
+        height: auto;
+    }
 }
