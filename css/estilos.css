@@ -141,4 +141,7 @@ body {
         width: 100%;
         height: auto;
     }
+    .alinear-btn{
+        margin: 0% 0%  0% 33%;
+    }
 }
