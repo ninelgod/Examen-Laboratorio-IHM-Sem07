@@ -15,6 +15,10 @@ body {
     margin: 20px auto;
 }
 
+.color-nav{
+    background: #f5f5f5;
+}
+
 .profile-header {
     display: flex;
     justify-content: space-between;
