@@ -124,4 +124,21 @@ body {
     background-color: #ccc;
     border-radius: 50%;
 }
+@media (max-width: 767px) {
+    .alinear-image {
+        padding: 5% 0; 
+        text-align: center; 
+    }
 
+    .profile-image {
+        max-width: 80%; 
+        height: auto;
+    }
+    .description {
+        display: none;
+    }
+    .carousel-item .size-image {
+        width: 100%;
+        height: auto;
+    }
+}
