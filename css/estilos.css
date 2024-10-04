@@ -130,6 +130,9 @@ body {
     border-radius: 50%;
 }
 
+footer{
+    margin-top: 35px;
+}
 @media (max-width: 767px) {
     .alinear-image {
         padding: 5% 0; 
