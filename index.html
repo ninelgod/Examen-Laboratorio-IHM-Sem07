@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/castor.png">
+</head>
+<body>
+    <div class="container perfil-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Información">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Fotos">Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Descripción">Descripción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Articulos">Articulos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="Información" class="section text-center">
+            <h1 class="text-center mb-4">Información Personal</h1>
+            
+            <div class="row">
+                <div class="col-md-4 alinear-image">
+                    <img src="img/ea.jpeg" alt="Profile Image" class="profile-image mb-3">
+                </div>
+                <div class="col-md-8">
+                            <label class="font-weight-bold">Nombres</label>
+                            <p>Emilio Jean Pierre</p>
+                            <label class="font-weight-bold">Apellidos</label>
+                            <p>Alfaro Loyola</p>
+                            <label class="font-weight-bold">Fecha de Nacimiento</label>
+                            <p>08/10/2003</p>
+                            <label class="font-weight-bold">Lugar de Nacimiento</label>
+                            <p>Trujillo, Perú</p>
+                            <label class="font-weight-bold">Correo</label>
+                            <p>emiialfa08@gmail.com</p>
+                            <label class="font-weight-bold">Telefono</label>
+                            <p>+51 932-668-701</p>
+                </div>
+            </div>
+        </div>
+        <div class="section row">
+            <div id="Fotos" class="col-md-12">
+                <div class="info-box">
+                    <h5 class="font-weight-bold text-center">Fotos</h5>
+                    <div class="col">
+                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-flex">
+                                        <img src="img/yoenlaplaya.jfif" class="size-image" alt="Primera foto" id="foto1">
+                                        <div class="description">
+                                            <h5>Delicias, Trujillo</h5>
+                                            <p">Playa Las Delicias, una hermosa playa para veranear.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex flex-row-reverse">
+                                        <img src="img/yoenlaselva.jfif" class="size-image" alt="Segunda foto" id="foto2">
+                                        <div class="description">
+                                            <h5>Rioja, San Martín</h5>
+                                            <p>"Impresionante paisaje en Rioja, San Martín, donde los majestuosos arboles crean un entorno natural único."</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div id="Descripción" class="section">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="info-box">
+                        <h5 class="font-weight-bold text-center">Descripción</h5>
+                        <p>Soy Emilio Alfaro, estudiante de Ingeniería de Computación y Sistemas en la Universidad Privada Antenor Orrego (UPAO), actualmente cursando el 5to ciclo. A mis 20 años, he adquirido sólidos conocimientos en áreas como ingeniería de software, gestión de sistemas de base de datos entre otros.
+                        <br><br>Mi objetivo a futuro es seguir especializándome en áreas como inteligencia artificial y la automatización de procesos para contribuir al desarrollo de soluciones que transformen la manera en que las empresas operan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="Hobbies" class="col-md-12">
+                <div class="hobbies-box">
+                    <h5 class="font-weight-bold text-center">Hobbies</h5>
+                    <p class="text-center">Mis hobbies favoritos son viajar, jugar dota, montar skate, jugar fútbol y correr.</p>
+                    <h5 class="font-weight-bold text-center">Talentos</h5>
+                    <p class="text-center">Uno de mis talentos es dibujar.</p>
+                    <h5 class="font-weight-bold text-center">Gustos</h5>
+                    <p class="text-center">LA PAPAYA 🐶</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="Articulos" class="icon-group">
+            <a href="https://www.facebook.com/08TTToBer" target=»_blank>
+                <img src="img/facebook.png" class="icon" alt="Icon 3">
+            </a>
+            <a href="https://www.instagram.com/emilioalfarol/" target=»_blank>
+                <img src="img/instagram.png" class="icon" alt="Icon 1">
+            </a>
+            <a href="https://github.com/ninelgod" target=»_blank>
+                <img src="img/github.png" class="icon" alt="Icon 2">
+            </a>
+            <a href="https://steamcommunity.com/profiles/76561198374126307/" target=»_blank>
+                <img src="img/juego.png" class="icon" alt="Icon 4">
+            </a>
+        </div>
+        
+    </div>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+</body>
+</html>
